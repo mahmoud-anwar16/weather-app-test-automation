@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test">
+
+    <test name="Android">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.qpros.WeatherTest"/>
+        </classes>
+    </test>
+</suite>
